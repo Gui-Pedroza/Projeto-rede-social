@@ -1,0 +1,23 @@
+body {
+    background-image: url(../imagens/fundo-madeira.jpg);
+    
+}
+
+aside {
+    height: 100vh;
+    width: 76px;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+aside div {
+    padding: 5px;
+}
+
+aside img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
