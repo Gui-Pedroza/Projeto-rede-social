@@ -1,6 +1,7 @@
 function changeFrameImg(id) {
-
+    
     let icone = document.querySelector(`#${id} img`)
-    icone.style.setProperty('border', '1px solid white')
+    // fazer as transicoes via CSS mesmo
+    
     console.log(id)
 }
