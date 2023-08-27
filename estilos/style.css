@@ -42,16 +42,18 @@ aside img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.700);
     box-sizing: border-box;   
 }
 
 aside img:hover {
-    box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.400);
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.700);
     transform: translate(-6px, -6px);
+    transition: transform 300ms;
     cursor: pointer;
 }
 
 aside img:active {
     border: 1px solid white;
-    opacity: 0.75;
+    opacity: 0.75;    
 }
